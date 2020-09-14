@@ -37,7 +37,7 @@ public class ClientApplicationOne {
                     }
                 }
             }).start();
-
+//
             out.writeUTF("-exit");
         } catch (IOException e) {
             e.printStackTrace();
