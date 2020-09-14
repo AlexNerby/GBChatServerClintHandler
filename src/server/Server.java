@@ -50,7 +50,7 @@ public class Server {
     public void unsubscribe(ClientHandler client) {
         clientHandlers.remove(client);
     }
-
+//
     public boolean checkLogin(String name) {
         for (ClientHandler ch : clientHandlers) {
             if (ch.getName().equals(name)) {

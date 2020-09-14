@@ -65,7 +65,7 @@ public class ClientHandler {
             }
         }).start();
     }
-
+//
     public void authenticate() throws IOException {
         System.out.println("Client auth is on going...");
         while (true) {
